@@ -1,11 +1,9 @@
-title: processing-stroke
+title: Using stroke()
 hero_image: images/banner.png
-description: processing-stroke description
+description: Using stroke()
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-08-10"
 steps:
-  - title: Introduction
-  - title: Step title
-  - title: What next?
+  - title: Using stroke()
