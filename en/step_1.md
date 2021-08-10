@@ -1,59 +1,33 @@
-## Introduction
+`stroke()` sets the colour to use for the borders around the shapes. Just like `fill()` the `stroke()` function applies to everything drawn after you call it so you will need to add `stroke()` code every time you want to change the stroke colour. 
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+To remove the borders completely, add `no_stroke()` before drawing your shape(s). 
 
-### What you will make
+The thickness of the border can be controlled using `stroke_weight()` 
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+This example has `no_stroke()` for the sky, grass and brown stand, then changes to `stroke(WHITE)` `stroke_weight(3)` to draw the target circles. 
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
+language: python
+filename: main.py - draw()
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+  no_stroke() # removes borders
+  fill(BLUE) # sky
+  rect(0, 0, 400, 250)
+  fill(GREEN) # grass
+  rect(0, 250, 400, 150)
+  fill(BROWN) 
+  triangle(150, 350, 200, 150, 250, 350)  stand
+  stroke(WHITE) # A white outline
+  stroke_weight(3) # A thick outline
+  fill(GREY)
+  ellipse(200, 200, 170, 170) # Outer circle
+  fill(RED)
+  ellipse(200, 200, 110, 110) # Inner circle
+  fill(YELLOW)
+  ellipse(200, 200, 30, 30) # Bullseye
 
---- /collapse ---
+--- /code ---
 
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+![An archery scene with thick, white borders on the circles and no borders on the rectangles or triangle.](images/outline-circles.png)
