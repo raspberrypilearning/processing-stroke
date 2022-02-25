@@ -1,10 +1,10 @@
-`stroke()` sets the colour to use for the borders around the shapes. Just like `fill()` the `stroke()` function applies to everything drawn after you call it so you will need to add `stroke()` code every time you want to change the stroke colour.
+Η συνάρτηση `stroke()` ορίζει το χρώμα που θα χρησιμοποιηθεί για τα περιγράμματα γύρω από τα σχήματα. Ακριβώς όπως η συνάρτηση `fill()`, η συνάρτηση `stroke()` ισχύει για οτιδήποτε σχεδιάζεται αφού την καλέσεις, γι' αυτό θα πρέπει να προσθέτεις κώδικα με την `stroke()` κάθε φορά που θέλεις να αλλάξεις το χρώμα της διαδρομής.
 
-To remove the borders completely, add `no_stroke()` before drawing your shape(s).
+Για να αφαιρέσεις εντελώς τα περιγράμματα, πρόσθεσε τη συνάρτηση `no_stroke()` πριν σχεδιάσεις τα σχήματά σου.
 
-The thickness of the border can be controlled using `stroke_weight()`
+Το πάχος του περιγράμματος μπορεί να ελεγχθεί χρησιμοποιώντας τη συνάρτηση `stroke_weight()`
 
-This example has `no_stroke()` for the sky, grass and brown stand, then changes to `stroke(WHITE)` `stroke_weight(3)` to draw the target circles.
+Αυτό το παράδειγμα έχει τη συνάρτηση `no_stroke()` για τον ουρανό, το γρασίδι και την καφέ βάση του στόχου και μετά αλλάζει σε `stroke(WHITE)` και `stroke_weight(3)` για να σχεδιάσει τους κύκλους του στόχου.
 
 --- code ---
 ---
@@ -12,8 +12,8 @@ language: python
 filename: main.py - draw()
 ---
 
-  no_stroke() # removes borders fill(BLUE) # sky rect(0, 0, 400, 250) fill(GREEN) # grass rect(0, 250, 400, 150) fill(BROWN) triangle(150, 350, 200, 150, 250, 350)  stand stroke(WHITE) # A white outline stroke_weight(3) # A thick outline fill(GREY) ellipse(200, 200, 170, 170) # Outer circle fill(RED) ellipse(200, 200, 110, 110) # Inner circle fill(YELLOW) ellipse(200, 200, 30, 30) # Bullseye
+  no_stroke() # αφαίρεσε τα περιγράμματα fill(BLUE) # ουρανός rect(0, 0, 400, 250) fill(GREEN) # γρασίδι rect(0, 250, 400, 150) fill(BROWN) triangle(150, 350, 200, 150, 250, 350)  stand stroke(WHITE) # Άσπρο περίγραμμα stroke_weight(3) # Παχύ περίγραμμα fill(GREY) ellipse(200, 200, 170, 170) # Εξωτερικός κύκλος fill(RED) ellipse(200, 200, 110, 110) # Εσωτερικό κύκλος fill(YELLOW) ellipse(200, 200, 30, 30) # Κέντρο στόχου
 
 --- /code ---
 
-![An archery scene with thick, white borders on the circles and no borders on the rectangles or triangle.](images/outline-circles.png)
+![Μια σκηνή τοξοβολίας με παχιά, λευκά περιγράμματα στους κύκλους και χωρίς όρια στα ορθογώνια ή τρίγωνα.](images/outline-circles.png)
