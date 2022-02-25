@@ -1,10 +1,10 @@
-`stroke()` sets the colour to use for the borders around the shapes. Just like `fill()` the `stroke()` function applies to everything drawn after you call it so you will need to add `stroke()` code every time you want to change the stroke colour.
+`()stroke` يضبط اللون الذي سيتم استخدامه للاطار حول الأشكال. تمامًا مثل ` ()fill`، تنطبق دالة `()stroke` على كل ما يتم رسمه بعد تسميته، لذا ستحتاج إلى إضافة التعليات البرمجية `()stroke` في كل مرة تريد فيها تغيير لون الحد.
 
-To remove the borders completely, add `no_stroke()` before drawing your shape(s).
+لإزالة الاطار تمامًا، أضف `()no_stroke` قبل رسم الشكل (الأشكال).
 
-The thickness of the border can be controlled using `stroke_weight()`
+يمكن التحكم في سماكة الاطار باستخدام `()stroke_weight`
 
-This example has `no_stroke()` for the sky, grass and brown stand, then changes to `stroke(WHITE)` `stroke_weight(3)` to draw the target circles.
+يحتوي هذا المثال على `()no_stroke` للسماء والعشب والمنصة البنية، ثم يتغير إلى `stroke_weight(3)` `stroke(WHITE)` لرسم الدوائر المستهدفة.
 
 --- code ---
 ---
@@ -16,4 +16,4 @@ filename: main.py - draw()
 
 --- /code ---
 
-![An archery scene with thick, white borders on the circles and no borders on the rectangles or triangle.](images/outline-circles.png)
+![مشهد رماية بحدود بيضاء سميكة على الدوائر وبدون حدود على المستطيلات أو المثلثات.](images/outline-circles.png)
