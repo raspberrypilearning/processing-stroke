@@ -1,10 +1,10 @@
-`stroke()` sets the colour to use for the borders around the shapes. Just like `fill()` the `stroke()` function applies to everything drawn after you call it so you will need to add `stroke()` code every time you want to change the stroke colour.
+`stroke()` définit la couleur à utiliser pour les bordures autour des formes. Tout comme `fill()` la fonction `stroke()` s'applique à tout ce qui est dessiné après l'avoir appelée, tu devras donc ajouter le `stroke()` chaque fois que tu souhaites changer la couleur du trait.
 
-To remove the borders completely, add `no_stroke()` before drawing your shape(s).
+Pour supprimer complètement les bordures, ajoute `no_stroke()` avant de dessiner ta ou tes formes.
 
-The thickness of the border can be controlled using `stroke_weight()`
+L'épaisseur de la bordure peut être contrôlée à l'aide de `stroke_weight()`
 
-This example has `no_stroke()` for the sky, grass and brown stand, then changes to `stroke(WHITE)` `stroke_weight(3)` to draw the target circles.
+Cet exemple a `no_stroke()` pour le ciel, l'herbe et le stand marron, puis passe à `stroke(WHITE)` `stroke_weight(3)` pour dessiner les cercles de la cible.
 
 --- code ---
 ---
@@ -12,8 +12,8 @@ language: python
 filename: main.py - draw()
 ---
 
-  no_stroke() # removes borders fill(BLUE) # sky rect(0, 0, 400, 250) fill(GREEN) # grass rect(0, 250, 400, 150) fill(BROWN) triangle(150, 350, 200, 150, 250, 350)  stand stroke(WHITE) # A white outline stroke_weight(3) # A thick outline fill(GREY) ellipse(200, 200, 170, 170) # Outer circle fill(RED) ellipse(200, 200, 110, 110) # Inner circle fill(YELLOW) ellipse(200, 200, 30, 30) # Bullseye
+  no_stroke() # supprime les bordures fill(BLUE) # ciel rect(0, 0, 400, 250) fill(GREEN) # herbe rect(0, 250, 400, 150) fill(BROWN) triangle( 150, 350, 200, 150, 250, 350) stand stroke(WHITE) # Un contour blanc stroke_weight(3) # Un contour épais fill(GREY) ellipse(200, 200, 170, 170) # Cercle extérieur remplissage (ROUGE) ellipse (200, 200, 110, 110) # Cercle intérieur remplissage (JAUNE) ellipse (200, 200, 30, 30) # La cible
 
 --- /code ---
 
-![An archery scene with thick, white borders on the circles and no borders on the rectangles or triangle.](images/outline-circles.png)
+![Une scène de tir à l'arc avec des bordures épaisses et blanches sur les cercles et sans bordures sur les rectangles ou le triangle.](images/outline-circles.png)
