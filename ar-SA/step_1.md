@@ -12,7 +12,7 @@ language: python
 filename: main.py - draw()
 ---
 
-  no_stroke() #يزيل الحدود fill(BLUE) # سماء rect(0, 0, 400, 250) fill(GREEN) # عشب rect(0, 250, 400, 150) fill(BROWN) triangle(150, 350, 200, 150, 250, 350)  stand stroke(WHITE) # مخطط أبيض stroke_weight(3) # الخطوط العريضة سميكة fill(GREY) ellipse(200, 200, 170, 170) # الدائرة الخارجية fill(RED) ellipse(200, 200, 110, 110) # الدائرة الداخلية fill(YELLOW) ellipse(200, 200, 30, 30) # مركز الهدف
+  no_stroke() # removes borders fill(BLUE) # sky rect(0, 0, 400, 250) fill(GREEN) # grass rect(0, 250, 400, 150) fill(BROWN) triangle(150, 350, 200, 150, 250, 350)  #stand stroke(WHITE) # A white outline stroke_weight(3) # A thick outline fill(GREY) ellipse(200, 200, 170, 170) # Outer circle fill(RED) ellipse(200, 200, 110, 110) # Inner circle fill(YELLOW) ellipse(200, 200, 30, 30) # Bullseye
 
 --- /code ---
 
