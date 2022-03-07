@@ -12,7 +12,7 @@ language: python
 filename: main.py - draw()
 ---
 
-  no_stroke() # removes borders fill(BLUE) # sky rect(0, 0, 400, 250) fill(GREEN) # grass rect(0, 250, 400, 150) fill(BROWN) triangle(150, 350, 200, 150, 250, 350)  #stand stroke(WHITE) # A white outline stroke_weight(3) # A thick outline fill(GREY) ellipse(200, 200, 170, 170) # Outer circle fill(RED) ellipse(200, 200, 110, 110) # Inner circle fill(YELLOW) ellipse(200, 200, 30, 30) # Bullseye
+  no_stroke() # elimina los bordes fill(BLUE) # fija el color del cielo rect(0, 0, 400, 250) fill(GREEN) # fija el color del pasto rect(0, 250, 400, 150) fill(BROWN) triangle(150, 350, 200, 150, 250, 350)  # soporte marrón stroke(WHITE) # Para un contorno blanco stroke_weight(3) # Para un contorno grueso fill(GREY) ellipse(200, 200, 170, 170) # Círculo exterior del tablero de tiro al blanco fill(RED) ellipse(200, 200, 110, 110) # Círculo interior del tablero de tiro al blanco fill(YELLOW) ellipse(200, 200, 30, 30) # La diana del tablero de tiro al blanco
 
 --- /code ---
 
