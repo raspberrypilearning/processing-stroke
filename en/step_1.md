@@ -18,7 +18,7 @@ filename: main.py - draw()
   fill(GREEN) # grass
   rect(0, 250, 400, 150)
   fill(BROWN) 
-  triangle(150, 350, 200, 150, 250, 350)  stand
+  triangle(150, 350, 200, 150, 250, 350)  #stand
   stroke(WHITE) # A white outline
   stroke_weight(3) # A thick outline
   fill(GREY)
