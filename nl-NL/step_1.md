@@ -31,14 +31,3 @@ filename: main.py - draw()
 --- /code ---
 
 ![Een boogschietscène met dikke, witte randen om de cirkels en geen randen op de rechthoeken of driehoek.](images/outline-circles.png)
-
-***
-Dit project werd vertaald door vrijwilligers:
-
-[name]
-
-[name]
-
-[name]
-
-Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).
