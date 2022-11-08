@@ -1,0 +1,17 @@
+removes borders
+
+sky
+
+grass
+
+stand
+
+A white outline
+
+A thick outline
+
+Outer circle
+
+Inner circle
+
+Bullseye
