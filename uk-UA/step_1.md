@@ -1,10 +1,10 @@
-`stroke()` sets the colour to use for the borders around the shapes. Just like `fill()` the `stroke()` function applies to everything drawn after you call it so you will need to add `stroke()` code every time you want to change the stroke colour.
+`stroke()` встановлює колір, який буде використовуватися для обведення фігур. Так само як і `fill()`, функція `stroke()` застосовується до всього, що намальовано після її виклику, тому тобі потрібно буде додавати код `stroke()` щоразу, коли ти захочеш змінити колір обведення.
 
-To remove the borders completely, add `no_stroke()` before drawing your shape(s).
+Щоб видалити повністю обведення, додай `no_stroke()` перед тим, як намалювати фігуру(и).
 
-The thickness of the border can be controlled using `stroke_weight()`
+Товщину обведення можна регулювати за допомогою `stroke_weight()`
 
-This example has `no_stroke()` for the sky, grass and brown stand, then changes to `stroke(WHITE)` `stroke_weight(3)` to draw the target circles.
+У цьому прикладі використовується `no_stroke()` для неба, трави та коричневого дерева, а потім змінюється на `stroke(WHITE)` `stroke_weight(3)`, щоб намалювати кола для мішені.
 
 --- code ---
 ---
@@ -16,4 +16,4 @@ filename: main.py - draw()
 
 --- /code ---
 
-![An archery scene with thick, white borders on the circles and no borders on the rectangles or triangle.](images/outline-circles.png)
+![Зображення стрільби з лука з товстими білими рамками на колах і без рамок на прямокутниках і трикутнику.](images/outline-circles.png)
