@@ -1,17 +1,17 @@
-removes borders
+стирає обведення
 
-sky
+небо
 
-grass
+трава
 
-stand
+підставка
 
-A white outline
+Білий контур
 
-A thick outline
+Товстий контур
 
-Outer circle
+Зовнішнє коло
 
-Inner circle
+Внутрішнє коло
 
-Bullseye
+Яблучко
