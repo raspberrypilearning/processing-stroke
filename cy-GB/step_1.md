@@ -12,8 +12,22 @@ language: python
 filename: main.py - draw()
 ---
 
-  no_stroke() # tynnu borderi fill(BLUE) # awyr rect(0, 0, 400, 250) fill(GREEN) # gwair rect(0, 250, 400, 150) fill(BROWN) triangle(150, 350, 200, 150, 250, 350)  #stand stroke(WHITE) # Amlinell wen stroke_weight(3) # Amlinell drwchus fill(GREY) ellipse(200, 200, 170, 170) # Cylch allanol fill(RED) ellipse(200, 200, 110, 110) # Cylch mewnol fill(YELLOW) ellipse(200, 200, 30, 30) # Canol y nod
+    no_stroke()  # removes borders
+    fill(BLUE)  # sky
+    rect(0, 0, 400, 250)
+    fill(GREEN)  # grass
+    rect(0, 250, 400, 150)
+    fill(BROWN) 
+    triangle(150, 350, 200, 150, 250, 350)  #stand
+    stroke(WHITE)  # A white outline
+    stroke_weight(3)  # A thick outline
+    fill(GREY)
+    ellipse(200, 200, 170, 170)  # Outer circle
+    fill(RED)
+    ellipse(200, 200, 110, 110)  # Inner circle
+    fill(YELLOW)
+    ellipse(200, 200, 30, 30)  # Bullseye
 
 --- /code ---
 
-![Golygfa saethyddiaeth gyda borderi trwchus, gwyn ar y cylchoedd a dim borderi ar y petryal na'r triongl.](images/outline-circles.png)
+![An archery scene with thick, white borders on the circles and no borders on the rectangles or triangle.](images/outline-circles.png)
