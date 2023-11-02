@@ -30,4 +30,4 @@ filename: main.py - draw()
 
 --- /code ---
 
-![An archery scene with thick, white borders on the circles and no borders on the rectangles or triangle.](images/outline-circles.png)
+![Scena strzelania z łuku z grubymi białymi obwódkami na okręgach i bez ramek na prostokątach lub trójkątach.](images/outline-circles.png)
