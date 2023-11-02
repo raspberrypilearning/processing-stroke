@@ -12,8 +12,22 @@ language: python
 filename: main.py - draw()
 ---
 
-  no_stroke() # αφαιρεί τα περιγράμματα fill(BLUE) # ουρανός rect(0, 0, 400, 250) fill(GREEN) # γρασίδι rect(0, 250, 400, 150) fill(BROWN) triangle(150, 350, 200, 150, 250, 350)  #βάση στήριξης stroke(WHITE) # Άσπρο περίγραμμα stroke_weight(3) # Παχύ περίγραμμα fill(GREY) ellipse(200, 200, 170, 170) # Εξωτερικός κύκλος fill(RED) ellipse(200, 200, 110, 110) # Εσωτερικός κύκλος fill(YELLOW) ellipse(200, 200, 30, 30) # Κέντρο στόχου
+    no_stroke()  # removes borders
+    fill(BLUE)  # sky
+    rect(0, 0, 400, 250)
+    fill(GREEN)  # grass
+    rect(0, 250, 400, 150)
+    fill(BROWN) 
+    triangle(150, 350, 200, 150, 250, 350)  #stand
+    stroke(WHITE)  # A white outline
+    stroke_weight(3)  # A thick outline
+    fill(GREY)
+    ellipse(200, 200, 170, 170)  # Outer circle
+    fill(RED)
+    ellipse(200, 200, 110, 110)  # Inner circle
+    fill(YELLOW)
+    ellipse(200, 200, 30, 30)  # Bullseye
 
 --- /code ---
 
-![Μια σκηνή τοξοβολίας με παχιά, λευκά περιγράμματα στους κύκλους και χωρίς όρια στα ορθογώνια ή τρίγωνα.](images/outline-circles.png)
+![An archery scene with thick, white borders on the circles and no borders on the rectangles or triangle.](images/outline-circles.png)
