@@ -1,17 +1,17 @@
-removes borders
+usuwa obramowanie
 
-sky
+niebo
 
-grass
+trawa
 
-stand
+stoisko
 
-A white outline
+Biały kontur
 
-A thick outline
+Gruby kontur
 
-Outer circle
+Koło zewnętrzne
 
-Inner circle
+Koło wewnętrzne
 
 Bullseye
