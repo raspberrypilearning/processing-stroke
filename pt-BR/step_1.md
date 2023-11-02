@@ -12,8 +12,22 @@ language: python
 filename: main.py - draw()
 ---
 
-  no_stroke() # remove bordas fill(BLUE) # céu, preenchimento azul rect(0, 0, 400, 250) fill(GREEN) # grama, preenchimento verde rect(0, 250, 400, 150) fill(BROWN) # Preenchimento marrom triangle( 150, 350, 200, 150, 250, 350) # suporte do alvo stroke(WHITE) # Um contorno branco stroke_weight(3) # Um contorno grosso fill(GREY) # Preenchimento cinza elipse(200, 200, 170, 170) # Círculo externo fill(RED) # Preenchimento vermelho elipse(200, 200, 110, 110) # Círculo interno fill(YELLOW) # Preenchimento amarelo elipse(200, 200, 30, 30) # Centro do alvo
+    no_stroke()  # removes borders
+    fill(BLUE)  # sky
+    rect(0, 0, 400, 250)
+    fill(GREEN)  # grass
+    rect(0, 250, 400, 150)
+    fill(BROWN) 
+    triangle(150, 350, 200, 150, 250, 350)  #stand
+    stroke(WHITE)  # A white outline
+    stroke_weight(3)  # A thick outline
+    fill(GREY)
+    ellipse(200, 200, 170, 170)  # Outer circle
+    fill(RED)
+    ellipse(200, 200, 110, 110)  # Inner circle
+    fill(YELLOW)
+    ellipse(200, 200, 30, 30)  # Bullseye
 
 --- /code ---
 
-![Uma cena de tiro com arco e flechas, com bordas grossas e brancas nos círculos e sem bordas nos retângulos ou triângulos.](images/outline-circles.png)
+![An archery scene with thick, white borders on the circles and no borders on the rectangles or triangle.](images/outline-circles.png)
