@@ -1,17 +1,17 @@
-removes borders
+quita los bordes
 
-sky
+cielo
 
-grass
+césped
 
-stand
+soporte
 
-A white outline
+Un contorno blanco
 
-A thick outline
+Un contorno grueso
 
-Outer circle
+Círculo exterior
 
-Inner circle
+Círculo interno
 
 Bullseye
