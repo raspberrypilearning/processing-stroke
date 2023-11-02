@@ -12,8 +12,22 @@ language: python
 filename: main.py - draw()
 ---
 
-  no_stroke() # 輪郭線なし fill(BLUE) # 空 rect(0, 0, 400, 250) fill(GREEN) # 草 rect(0, 250, 400, 150) fill(BROWN) triangle(150, 350, 200, 150, 250, 350)  # 台 stroke(WHITE) # 白の輪郭線 stroke_weight(3) # 太い輪郭線 fill(GREY) ellipse(200, 200, 170, 170) # 外側の円 fill(RED) ellipse(200, 200, 110, 110) # 内側の円 fill(YELLOW) ellipse(200, 200, 30, 30) # 中心部
+    no_stroke()  # removes borders
+    fill(BLUE)  # sky
+    rect(0, 0, 400, 250)
+    fill(GREEN)  # grass
+    rect(0, 250, 400, 150)
+    fill(BROWN) 
+    triangle(150, 350, 200, 150, 250, 350)  #stand
+    stroke(WHITE)  # A white outline
+    stroke_weight(3)  # A thick outline
+    fill(GREY)
+    ellipse(200, 200, 170, 170)  # Outer circle
+    fill(RED)
+    ellipse(200, 200, 110, 110)  # Inner circle
+    fill(YELLOW)
+    ellipse(200, 200, 30, 30)  # Bullseye
 
 --- /code ---
 
-![円に太い白い輪郭線があり、四角形や三角形に輪郭線がないアーチェリー場。](images/outline-circles.png)
+![An archery scene with thick, white borders on the circles and no borders on the rectangles or triangle.](images/outline-circles.png)
