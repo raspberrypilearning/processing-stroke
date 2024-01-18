@@ -1,10 +1,10 @@
-`stroke()` sets the colour to use for the borders around the shapes. Just like `fill()` the `stroke()` function applies to everything drawn after you call it so you will need to add `stroke()` code every time you want to change the stroke colour.
+`stroke()` imposta il colore da utilizzare per i bordi attorno alle forme. Proprio come `fill()`, la funzione `stroke()` si applica a tutto ciò che viene disegnato dopo averlo chiamato, quindi dovrai aggiungere il codice `stroke()` ogni volta che desideri cambiare il colore del tratto.
 
-To remove the borders completely, add `no_stroke()` before drawing your shape(s).
+Per rimuovere completamente i bordi, aggiungi `no_stroke()` prima di disegnare le tue forme.
 
-The thickness of the border can be controlled using `stroke_weight()`
+Lo spessore del bordo può essere controllato utilizzando `stroke_weight()`
 
-This example has `no_stroke()` for the sky, grass and brown stand, then changes to `stroke(WHITE)` `stroke_weight(3)` to draw the target circles.
+Questo esempio ha `no_stroke()` per il cielo, l'erba e il supporto marrone, quindi cambia in `stroke(WHITE)` `stroke_weight(3)` per disegnare i cerchi del bersaglio.
 
 --- code ---
 ---
@@ -30,4 +30,4 @@ filename: main.py - draw()
 
 --- /code ---
 
-![An archery scene with thick, white borders on the circles and no borders on the rectangles or triangle.](images/outline-circles.png)
+![Una scena di tiro con l'arco con spessi bordi bianchi sui cerchi e senza bordi sui rettangoli o sul triangolo.](images/outline-circles.png)
