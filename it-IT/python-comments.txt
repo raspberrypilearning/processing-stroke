@@ -1,0 +1,17 @@
+rimuove i bordi
+
+cielo
+
+erba
+
+supporto
+
+Un contorno bianco
+
+Un contorno spesso
+
+Cerchio esterno
+
+Cerchio interno
+
+Centro
