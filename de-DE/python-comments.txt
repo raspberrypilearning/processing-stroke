@@ -1,0 +1,17 @@
+entfernt Ränder
+
+Himmel
+
+Gras
+
+Stand
+
+Eine weiße Umrandung
+
+Eine dicke Umrandung
+
+Äußerer Kreis
+
+Innerer Kreis
+
+Volltreffer
